@@ -13,37 +13,36 @@ public class ModItemMatchers {
             .match("sword")
             .match("machete")
             .match("gladius")
-//            .match("shortsword") // contains in sword
             .match("falchion")
-//            .match("broodsword") // contains in sword
             .match("saber")
-            .match("dagger")
             .match("cullass")
             .match("rapier")
-//            .match("longsword") // contains in sword
-            .match("claymore")
-            .match("flamberge")
-            .match("zweihander")
             .match("dao")
             .match("jian")
-//            .match("dadao") // contains in dao
-//            .match("hooksword") // contains in sword
-//            .match("kodachi") // contains in odachi
             .match("odachi")
-            .match("tachi")
             .match("wakizashi")
             .match("katana")
             .match("chokuto")
             .match("ninjato")
             .match("scimitar")
             .match("shamshir")
+            // 添加排除项，避免与新类型冲突
+            .nonMatch("greatsword")
+            .nonMatch("claymore")
+            .nonMatch("flamberge")
+            .nonMatch("zweihander")
+            .nonMatch("longsword")
+            .nonMatch("dagger")
+            .nonMatch("kunai")
+            .nonMatch("shuriken")
+            .nonMatch("tachi")
             .build();
 
     public static final ItemMatcher TRIDENTS = MatcherBuilder.of()
             .match("trident")
             .match("lance")
             .match("halbred")
-            .match("spear")
+            .nonMatch("spear")
             .build();
 
     public static final ItemMatcher SHIELDS = MatcherBuilder.of()
@@ -73,6 +72,37 @@ public class ModItemMatchers {
             .match("hoe")
             .build();
 
+    public static final ItemMatcher GREATSWORDS = MatcherBuilder.of()
+            .match("greatsword")
+            .match("claymore")
+            .match("flamberge")
+            .match("zweihander")
+            .build();
+
+    public static final ItemMatcher SPEARS = MatcherBuilder.of()
+            .match("spear")
+            .match("lance")
+            .match("pike")
+            .build();
+
+    public static final ItemMatcher TACHIS = MatcherBuilder.of()
+            .match("tachi")
+            .build();
+
+    public static final ItemMatcher LONGSWORDS = MatcherBuilder.of()
+            .match("longsword")
+            .build();
+
+    public static final ItemMatcher DAGGERS = MatcherBuilder.of()
+            .match("dagger")
+            .match("kunai")
+            .match("shuriken")
+            .build();
+
+    public static final ItemMatcher GLOVES = MatcherBuilder.of()
+            .match("glove")
+            .match("gauntlet")
+            .build();
 
     private static class MatcherBuilder {
 

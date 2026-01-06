@@ -23,6 +23,13 @@ public class ModItemTags {
     public static final IRegistryHolder<ITagKey<Item>> FISHING_RODS = skinnable("fishing_rods");
     public static final IRegistryHolder<ITagKey<Item>> BACKPACKS = skinnable("backpacks");
 
+    public static final IRegistryHolder<ITagKey<Item>> GREATSWORDS = skinnable("greatswords");
+    public static final IRegistryHolder<ITagKey<Item>> SPEARS = skinnable("spears");
+    public static final IRegistryHolder<ITagKey<Item>> TACHIS = skinnable("tachis");
+    public static final IRegistryHolder<ITagKey<Item>> LONGSWORDS = skinnable("longswords");
+    public static final IRegistryHolder<ITagKey<Item>> DAGGERS = skinnable("daggers");
+    public static final IRegistryHolder<ITagKey<Item>> GLOVES = skinnable("gloves");
+
     public static final IRegistryHolder<ITagKey<Item>> HORSE_ARMORS = skinnable("horse_armors");
 
     private static IRegistryHolder<ITagKey<Item>> skinnable(String name) {

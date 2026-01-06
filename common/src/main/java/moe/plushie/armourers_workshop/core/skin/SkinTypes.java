@@ -50,6 +50,13 @@ public final class SkinTypes {
     public static final SkinType ITEM_FISHING = item(20).part(SkinPartTypes.ITEM_FISHING_ROD).part(SkinPartTypes.ITEM_FISHING_HOOK).override(ItemOverrideType.FISHING_ROD).build("fishing");
     public static final SkinType ITEM_BACKPACK = item(24).part(SkinPartTypes.ITEM_BACKPACK).override(ItemOverrideType.BACKPACK).build("backpack");
 
+    public static final SkinType GREATSWORD = item(25).part(SkinPartTypes.ITEM_GREATSWORD).override(ItemOverrideType.GREATSWORD).build("greatsword");
+    public static final SkinType SPEAR = item(26).part(SkinPartTypes.ITEM_SPEAR).override(ItemOverrideType.SPEAR).build("spear");
+    public static final SkinType TACHI = item(27).part(SkinPartTypes.ITEM_TACHI).override(ItemOverrideType.TACHI).build("tachi");
+    public static final SkinType LONGSWORD = item(28).part(SkinPartTypes.ITEM_LONGSWORD).override(ItemOverrideType.LONGSWORD).build("longsword");
+    public static final SkinType DAGGER = item(29).part(SkinPartTypes.ITEM_DAGGER).override(ItemOverrideType.DAGGER).build("dagger");
+    public static final SkinType GLOVE = item(30).part(SkinPartTypes.ITEM_GLOVE).override(ItemOverrideType.GLOVE).build("glove");
+
     public static final SkinType ADVANCED = normal(16).part(SkinPartTypes.ADVANCED).build("part");
 
     public static SkinType byName(String registryName) {

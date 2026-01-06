@@ -66,6 +66,13 @@ public final class SkinPartTypes {
     public static final SkinPartType ITEM_SHOVEL = register("shovel.base", new ItemPartType());
     public static final SkinPartType ITEM_HOE = register("hoe.base", new ItemPartType());
 
+    public static final SkinPartType ITEM_GREATSWORD = register("greatsword.base", new ItemPartType());
+    public static final SkinPartType ITEM_SPEAR = register("spear.base", new ItemPartType());
+    public static final SkinPartType ITEM_TACHI = register("tachi.base", new ItemPartType());
+    public static final SkinPartType ITEM_LONGSWORD = register("longsword.base", new ItemPartType());
+    public static final SkinPartType ITEM_DAGGER = register("dagger.base", new ItemPartType());
+    public static final SkinPartType ITEM_GLOVE = register("glove.base", new ItemPartType());
+
     public static final SkinPartType ITEM_BOW0 = register("bow.frame0", new BowPartType(0));
     public static final SkinPartType ITEM_BOW1 = register("bow.frame1", new BowPartType(1));
     public static final SkinPartType ITEM_BOW2 = register("bow.frame2", new BowPartType(2));

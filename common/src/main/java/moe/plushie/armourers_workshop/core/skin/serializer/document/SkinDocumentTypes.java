@@ -33,6 +33,12 @@ public class SkinDocumentTypes {
 //    public static final AdvancedCategory IRONMAN_ARMOR_OUTFIT = register("ironman", SkinTypes.OUTFIT);
 
     public static final SkinDocumentType ITEM = register("item", SkinTypes.ITEM);
+    public static final SkinDocumentType GREATSWORD = register("item", SkinTypes.GREATSWORD);
+    public static final SkinDocumentType SPEAR = register("item", SkinTypes.SPEAR);
+    public static final SkinDocumentType TACHI = register("item", SkinTypes.TACHI);
+    public static final SkinDocumentType LONGSWORD = register("item", SkinTypes.LONGSWORD);
+    public static final SkinDocumentType DAGGER = register("item", SkinTypes.DAGGER);
+    public static final SkinDocumentType GLOVE = register("item", SkinTypes.GLOVE);
 
     public static final SkinDocumentType ITEM_SWORD = register("item", SkinTypes.ITEM_SWORD);
     public static final SkinDocumentType ITEM_SHIELD = register("item", SkinTypes.ITEM_SHIELD);

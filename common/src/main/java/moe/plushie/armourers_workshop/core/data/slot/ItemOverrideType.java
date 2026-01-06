@@ -28,6 +28,14 @@ public enum ItemOverrideType {
     FISHING_ROD("fishing_rod", ModItemTags.FISHING_RODS, null),
     BACKPACK("backpack", ModItemTags.BACKPACKS, null),
 
+    GREATSWORD("greatsword", ModItemTags.GREATSWORDS, ModItemMatchers.GREATSWORDS),
+    SPEAR("spear", ModItemTags.SPEARS, ModItemMatchers.SPEARS),
+    TACHI("tachi", ModItemTags.TACHIS, ModItemMatchers.TACHIS),
+    LONGSWORD("longsword", ModItemTags.LONGSWORDS, ModItemMatchers.LONGSWORDS),
+    DAGGER("dagger", ModItemTags.DAGGERS, ModItemMatchers.DAGGERS),
+    GLOVE("glove", ModItemTags.GLOVES, ModItemMatchers.GLOVES),
+
+
     HORSE_ARMOR("horse_armor", ModItemTags.HORSE_ARMORS, null),
 
     ITEM("item", null, null);
