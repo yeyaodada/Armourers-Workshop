@@ -45,7 +45,7 @@ allprojects {
     apply plugin: "maven-publish"
 
     if (version == "unspecified") {
-        version = "2.0.0-homebaked"
+        version = "3.0.0-yeyao"
     }
 
     def uname = rootProject.archives_base_name.replaceAll("-", "")

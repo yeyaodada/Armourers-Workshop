@@ -17,11 +17,11 @@ import java.util.Objects;
 
 public enum SkinSlotType {
 
-    HEAD(0, 0, 10, "head", SkinTypes.ARMOR_HEAD),
-    CHEST(1, 10, 10, "chest", SkinTypes.ARMOR_CHEST),
-    LEGS(2, 20, 10, "legs", SkinTypes.ARMOR_LEGS),
-    FEET(3, 30, 10, "feet", SkinTypes.ARMOR_FEET),
-    WINGS(4, 40, 10, "wings", SkinTypes.ARMOR_WINGS),
+    HEAD(0, 0, 1, "head", SkinTypes.ARMOR_HEAD),
+    CHEST(1, 10, 1, "chest", SkinTypes.ARMOR_CHEST),
+    LEGS(2, 20, 1, "legs", SkinTypes.ARMOR_LEGS),
+    FEET(3, 30, 1, "feet", SkinTypes.ARMOR_FEET),
+    WINGS(4, 40, 1, "wings", SkinTypes.ARMOR_WINGS),
 
     SWORD(5, 50, 1, "sword", SkinTypes.ITEM_SWORD),
     SHIELD(6, 51, 1, "shield", SkinTypes.ITEM_SHIELD),
@@ -32,6 +32,14 @@ public enum SkinSlotType {
     AXE(9, 54, 1, "axe", SkinTypes.ITEM_AXE),
     SHOVEL(10, 55, 1, "shovel", SkinTypes.ITEM_SHOVEL),
     HOE(11, 56, 1, "hoe", SkinTypes.ITEM_HOE),
+
+    GREATSWORD(17, 58, 1, "greatsword", SkinTypes.GREATSWORD),
+    SPEAR(18, 59, 1, "spear", SkinTypes.SPEAR),
+    TACHI(19, 60, 1, "tachi", SkinTypes.TACHI),
+    LONGSWORD(20, 61, 1, "longsword", SkinTypes.LONGSWORD),
+    DAGGER(21, 62, 1, "dagger", SkinTypes.DAGGER),
+    GLOVE(22, 63, 1, "glove", SkinTypes.GLOVE),
+
 
     OUTFIT(12, 70, 10, "outfit", SkinTypes.OUTFIT),
     DYE(13, 80, 16, "dye", null),

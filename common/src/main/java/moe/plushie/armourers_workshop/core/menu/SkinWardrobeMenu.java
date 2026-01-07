@@ -55,7 +55,7 @@ public class SkinWardrobeMenu extends ContainerMenu {
     }
 
     protected void addEquipmentSlots(Group group, int column, int row) {
-        SkinSlotType[] slotTypes = {SkinSlotType.SWORD, SkinSlotType.SHIELD, SkinSlotType.BOW, SkinSlotType.TRIDENT, null, SkinSlotType.PICKAXE, SkinSlotType.AXE, SkinSlotType.SHOVEL, SkinSlotType.HOE};
+        SkinSlotType[] slotTypes = {SkinSlotType.SWORD, SkinSlotType.SHIELD, SkinSlotType.BOW, SkinSlotType.TRIDENT, null, SkinSlotType.PICKAXE, SkinSlotType.AXE, SkinSlotType.SHOVEL, SkinSlotType.HOE, SkinSlotType.GREATSWORD,SkinSlotType.SPEAR,SkinSlotType.TACHI,SkinSlotType.LONGSWORD,SkinSlotType.DAGGER,SkinSlotType.GLOVE};
         var hasContents = false;
         for (var slotType : slotTypes) {
             if (slotType != null) {

@@ -30,6 +30,12 @@ public class SkinningRecipes {
         recipes.add(new SkinningItemRecipe(SkinTypes.ITEM_BACKPACK));
 
         recipes.add(new SkinningItemRecipe(SkinTypes.ITEM));
+        recipes.add(new SkinningItemRecipe(SkinTypes.GREATSWORD));
+        recipes.add(new SkinningItemRecipe(SkinTypes.SPEAR));
+        recipes.add(new SkinningItemRecipe(SkinTypes.TACHI));
+        recipes.add(new SkinningItemRecipe(SkinTypes.LONGSWORD));
+        recipes.add(new SkinningItemRecipe(SkinTypes.DAGGER));
+        recipes.add(new SkinningItemRecipe(SkinTypes.GLOVE));
 
         recipes.add(new SkinningCopyRecipe());
         recipes.add(new SkinningClearRecipe());
