@@ -26,6 +26,12 @@ public class HeldItemGuideRenderer extends AbstractGuideRenderer {
         rendererManager.register(SkinPartTypes.ITEM_SHOVEL, this::render);
         rendererManager.register(SkinPartTypes.ITEM_SHIELD, this::render);
         rendererManager.register(SkinPartTypes.ITEM_SWORD, this::render);
+        rendererManager.register(SkinPartTypes.ITEM_GREATSWORD, this::render);
+        rendererManager.register(SkinPartTypes.ITEM_SPEAR, this::render);
+        rendererManager.register(SkinPartTypes.ITEM_TACHI, this::render);
+        rendererManager.register(SkinPartTypes.ITEM_LONGSWORD, this::render);
+        rendererManager.register(SkinPartTypes.ITEM_DAGGER, this::render);
+        rendererManager.register(SkinPartTypes.ITEM_GLOVE, this::render);
         rendererManager.register(SkinPartTypes.ITEM_TRIDENT, this::render);
         rendererManager.register(SkinPartTypes.ITEM_BOW0, this::render);
         rendererManager.register(SkinPartTypes.ITEM_BOW1, this::render);

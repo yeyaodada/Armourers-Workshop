@@ -19,6 +19,12 @@
     { "predicate": { "armourers_workshop:loading": 0.015 }, "model": "armourers_workshop:item/loading/block" },
     { "predicate": { "armourers_workshop:loading": 0.016 }, "model": "armourers_workshop:item/loading/part" },
     { "predicate": { "armourers_workshop:loading": 0.017 }, "model": "armourers_workshop:item/loading/trident" },
-    { "predicate": { "armourers_workshop:loading": 0.018 }, "model": "armourers_workshop:item/loading/unknown" }
+    { "predicate": { "armourers_workshop:loading": 0.018 }, "model": "armourers_workshop:item/loading/unknown" },
+    { "predicate": { "armourers_workshop:loading": 0.025 }, "model": "armourers_workshop:item/loading/greatsword" },
+    { "predicate": { "armourers_workshop:loading": 0.026 }, "model": "armourers_workshop:item/loading/spear" },
+    { "predicate": { "armourers_workshop:loading": 0.027 }, "model": "armourers_workshop:item/loading/tachi" },
+    { "predicate": { "armourers_workshop:loading": 0.028 }, "model": "armourers_workshop:item/loading/longsword" },
+    { "predicate": { "armourers_workshop:loading": 0.029 }, "model": "armourers_workshop:item/loading/dagger" },
+    { "predicate": { "armourers_workshop:loading": 0.030 }, "model": "armourers_workshop:item/loading/glove" }
   ]
 }

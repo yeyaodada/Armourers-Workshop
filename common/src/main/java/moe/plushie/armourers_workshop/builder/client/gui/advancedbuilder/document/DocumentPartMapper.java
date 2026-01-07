@@ -25,6 +25,12 @@ public class DocumentPartMapper {
         it.add(SkinTypes.ITEM_SHIELD);
         //it.add(SkinTypes.ITEM_BOW);
         it.add(SkinTypes.ITEM_TRIDENT);
+        it.add(SkinTypes.GREATSWORD);
+        it.add(SkinTypes.SPEAR);
+        it.add(SkinTypes.TACHI);
+        it.add(SkinTypes.LONGSWORD);
+        it.add(SkinTypes.DAGGER);
+        it.add(SkinTypes.GLOVE);
 
         it.add(SkinTypes.ITEM_PICKAXE);
         it.add(SkinTypes.ITEM_AXE);

@@ -69,6 +69,12 @@ public class AdvancedBuilderBlockRenderer<T extends AdvancedBuilderBlockEntity, 
         it.put(SkinDocumentTypes.ITEM_SHIELD, new AdvancedItemGuideRenderer());
         it.put(SkinDocumentTypes.ITEM_BOW, new AdvancedItemGuideRenderer());
         it.put(SkinDocumentTypes.ITEM_TRIDENT, new AdvancedItemGuideRenderer());
+        it.put(SkinDocumentTypes.GREATSWORD, new AdvancedItemGuideRenderer());
+        it.put(SkinDocumentTypes.SPEAR, new AdvancedItemGuideRenderer());
+        it.put(SkinDocumentTypes.TACHI, new AdvancedItemGuideRenderer());
+        it.put(SkinDocumentTypes.LONGSWORD, new AdvancedItemGuideRenderer());
+        it.put(SkinDocumentTypes.DAGGER, new AdvancedItemGuideRenderer());
+        it.put(SkinDocumentTypes.GLOVE, new AdvancedItemGuideRenderer());
 
         it.put(SkinDocumentTypes.ITEM_BACKPACK, new AdvancedBackpackGuideRenderer());
 
